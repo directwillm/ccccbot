@@ -1,6 +1,9 @@
-module.exports = Command;
-
-function Command (user, command) {
+module.exports = class Command {
+	constructor(user, command) {
 		this.user = user;
 		this.command = command;	
-}
+	}
+};
+
+
+
