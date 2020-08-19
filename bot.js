@@ -41,11 +41,14 @@ function onMessageHandler (target, context, msg, self) {
 		case '!cc ice':
 			currentCommands.push(new Command(user,'ice'));
 			break;
-		case '!cc higrav':
-			currentCommands.push(new Command(user,'higrav'));
+		case '!cc hiGrav':
+			currentCommands.push(new Command(user,'hiGrav'));
 			break;
-		case '!cc lowgrav':
+		case '!cc lowGrav':
 			currentCommands.push(new Command(user,'lowgrav'));
+			break;
+		case '!cc sandwich':
+			currentCommands.push(new Command(user,'sandwich'));
 			break;
 	}
 }
