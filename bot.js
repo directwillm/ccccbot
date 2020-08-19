@@ -38,6 +38,15 @@ function onMessageHandler (target, context, msg, self) {
 		case '!cc laser':
 			currentCommands.push(new Command(user,'laser'));
 			break;
+		case '!cc ice':
+			currentCommands.push(new Command(user,'ice'));
+			break;
+		case '!cc higrav':
+			currentCommands.push(new Command(user,'higrav'));
+			break;
+		case '!cc lowgrav':
+			currentCommands.push(new Command(user,'lowgrav'));
+			break;
 	}
 }
 
